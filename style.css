@@ -72,10 +72,13 @@ ul.nav li a{
     color:#fff;
 }
 
+/* Hero Section */
+/* ************ */
+
 .hero {
     background-color: #1f2937;
     color: #fff;
-    padding: 60px 30px;
+    padding-bottom: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -161,8 +164,36 @@ ul.nav li a{
 }
 
 
+/* CTA section */
+/* *********** */
 
+.cta-section {
+    background-color: #fff;
+    padding: 90px 0;
+}
 
+.cta {
+    display: flex;
+    background: #3882f6;
+    border-radius: 10px;
+    color : #fff;
+    justify-content: space-between;
+    padding-left:6rem;
+    padding-right:6rem;
+    
+}
+
+.cta > * {
+    /* flex: 1; */
+}
+
+.cta-left {
+    /* flex-grow : 3; */
+}
+
+.cta-btn {
+    border:2px solid #fff;
+}
 
 
 @media (max-width:768px){
@@ -177,6 +208,11 @@ ul.nav li a{
 
     .information {
         flex-direction: column;
+    }
+
+    .cta {
+        flex-direction: column;
+        text-align: center;
     }
 
 }
