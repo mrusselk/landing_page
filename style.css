@@ -112,6 +112,7 @@ ul.nav li a{
 }
 
 /* information-section */
+/* ******************* */
 .information-section{
     background-color: #fff;
     padding : 60px 30px;
@@ -119,7 +120,7 @@ ul.nav li a{
 
 .info-title{
     text-align: center;
-    margin-bottom:20px;
+    margin-bottom:40px;
     font-size: 36px;
     font-weight: 900;
 }
@@ -199,6 +200,21 @@ ul.nav li a{
     border:2px solid #fff;
 }
 
+
+/* footer-section */
+/* ************* */
+.footer-section {
+    background-color: #1f2937;
+}
+
+.footer-section .row{
+    padding : 20px 0;
+}
+
+.footer-text{
+    color:#fff;
+    text-align: center;
+}
 
 @media (max-width:768px){
     .hero>*:first-child{
