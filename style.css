@@ -116,7 +116,10 @@ ul.nav li a{
 .information-section{
     background-color: #fff;
     padding : 60px 30px;
+    text-align: center;
 }
+
+
 
 .info-title{
     text-align: center;
@@ -234,5 +237,7 @@ ul.nav li a{
         flex-direction: column;
         text-align: center;
     }
-
+    .odin-quot {
+        text-align : center;
+    }
 }
