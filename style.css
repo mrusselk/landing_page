@@ -229,6 +229,10 @@ ul.nav li a{
 }
 
 @media (max-width:768px){
+    .row {
+        padding : 40px 30px;
+    }
+
     .hero>*:first-child{
         order : 1;
         text-align: center;
