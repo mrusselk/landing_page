@@ -30,6 +30,15 @@ body {
     padding : 60px 30px;
 }
 
+h1{
+    font-size:3em;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 2.25em;
+    font-weight: 900;
+}
 
 .odin-btn {
     color:#fff;
@@ -107,10 +116,7 @@ ul.nav li a{
     border-radius: 10px;
 }
 
-.hero h1{
-    font-size:48px;
-    font-weight: 900;
-}
+
 .hero > * {
     flex : 1;
     
@@ -129,8 +135,6 @@ ul.nav li a{
 .info-title{
     text-align: center;
     margin-bottom:40px;
-    font-size: 36px;
-    font-weight: 900;
 }
 
 .information {
@@ -244,5 +248,15 @@ ul.nav li a{
     }
     .odin-quot {
         text-align : center;
+    }
+
+    h1{
+        font-size:1.8em;
+        font-weight: 900;
+    }
+    
+    h2{
+        font-size: 1.5em;
+        font-weight: 900;
     }
 }
