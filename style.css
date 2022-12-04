@@ -267,4 +267,8 @@ ul.nav li a{
     .info-img img{
         max-width:75%;
     }
+
+    .cta {
+        border-radius: 0px;
+    }
 }
